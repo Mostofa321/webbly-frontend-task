@@ -1,9 +1,5 @@
-import Image from "next/image";
+import { WorkspaceApp } from "@/components/WorkspaceApp";
 
-export default function Home() {
-  return (
-    <div >
-
-    </div>
-  );
+export default function Page() {
+  return <WorkspaceApp />;
 }
